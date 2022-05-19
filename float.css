@@ -1,0 +1,25 @@
+.blue{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  float: left;
+}
+
+.yellow{
+  width: 100px;
+  height: 100px;
+  background-color: yellow;
+  float: left;
+}
+
+.green{
+  width: 200px;
+  height: 200px;
+  background-color: green;
+  clear: both;
+  margin-left: 300px;
+  box-shadow: -7px -5px 5px black;
+  /* right side lenght, bottom sode shadow lenght, shadow intensity and color of the shadow; minus e opusul, deci jos devine sus  */
+  border-radius: 40px;
+  transform: rotate(35deg);
+}

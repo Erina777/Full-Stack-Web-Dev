@@ -1,0 +1,13 @@
+/* block-level element content  */
+h1{
+  background-color: red;
+  display: inline;
+}
+p{
+  background-color: blue;
+  display: inline;
+}
+span{
+  background-color: gray;
+  display: block;
+}

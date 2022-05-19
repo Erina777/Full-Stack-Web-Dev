@@ -1,0 +1,25 @@
+body{
+  border: 15px green solid;
+  font-family: Arial;
+  font-size: 17px;
+}
+h1{
+  color: red;
+  text-align: center;
+  text-transform: uppercase;
+}
+img{
+  width: 500px;
+  height: 400px;
+  float:left;
+}
+a{
+  color: blue;
+  font-weight: bold;
+}
+.p2{
+  text-decoration: underline;
+}
+.out{
+  margin: 20px;
+}

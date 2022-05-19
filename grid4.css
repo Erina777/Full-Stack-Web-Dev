@@ -1,0 +1,15 @@
+.container{
+  border: 1px solid blue;
+  padding: 10px;
+  display: grid;
+  grid-template: 1fr/repeat(3,1fr);
+  grid-gap: 10px;
+  height: 700px;
+
+/* align-content: start/center/end/space-between/space-around/space-evenly; */
+/* justify-content: start/center/end/space-between/space-around/space-evenly; */
+}
+.box{
+  background-color: orange;
+  border: 1px solid blue;
+}

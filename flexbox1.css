@@ -1,0 +1,61 @@
+.flexcontainer{
+border: 3px solid black;
+/* boxes will com side by side. */
+display:flex;
+/* no changes, it s default, but if you shrink the page, so will the boxes.*/
+/* flex-direction: column-reverse; */
+/* for "row" property we have "order" feature which allows us to place the items in the order that we want into our container.  */
+flex-direction: row;
+}
+
+/* .box1{
+  width: 100px;
+  height: 300px;
+  background-color: blue;
+  /* order:3; */
+  /* when we give flex-grow a value to an element, we set grow as usable space.*/
+  /* flex-grow: 1; */
+  /*An element with a flex-shrink value of 0 will not shrink, even as our page get smaller.
+   This is only true if there is no flex-grow value on this element.
+   If there is, then the element won't shrink any smaller than its content. */
+  /* flex-shrink: 1;
+} */
+
+/* .box2{
+  width: 100px;
+  height: 300px;
+  background-color: gray; */
+  /* order:1; */
+    /* flex-grow: 1; */
+
+
+/* .box3{
+  width: 100px;
+  height: 300px;
+  background-color: purple; */
+  /* order:2; */
+  /* when we give flex-grow 2 for this element, it will grow double space than
+   the other elements that received value 1. Distributed accordingly and not divided by 4 (in our case). */
+  /* flex-grow: 2; */
+/* } */
+
+.box1{
+  margin: 10px;
+  background-color: blue;
+  /* flex-basis alows an element to grow 100% on the usable space, even if we minimize the page. */
+  flex-basis: 40%;
+  flex-grow: 1;
+}
+.box2{
+  margin: 10px;
+  background-color: pink;
+    flex-basis: 100%;
+}
+.box3{
+  margin: 10px;
+  background-color: gray;
+    flex-basis: 60%;
+    flex-shrink: 2;
+    /* featre for flex grow, shrink and basis below. default values of CSS. */
+    flex: 0 1 auto;
+}

@@ -1,0 +1,28 @@
+.container{
+  border: 1px solid blue;
+  padding: 10px;
+  display: grid;
+  grid-template: 100px 200px 300px / repeat(3,1fr);
+  grid-gap: 10px;
+  /* justify  code impacts the items on the vertical axes. */
+  /* start shifts the boxes to the left of the page+box shrinks as much as their content:
+  justify-items: start; */
+  /* stretch it is by default, so no changes happen:
+  justify-items: stretch; */
+  /* end shifts the boxes to the right of the page:
+  justify-items: end; */
+  /* aling code impacts the items on the horizontal axes. */
+  /* align-items: center; */
+
+  /* place-items feature allows us to align both rows and columns at the same time. */
+  /* place-items: start end; */
+}
+
+.box{
+  background-color: orange;
+  border: 1px solid blue;
+}
+
+.box3{
+  place-self: start center;
+}

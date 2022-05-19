@@ -1,0 +1,29 @@
+/* when we want to create a 150px box and add different values such as padding, margins,
+box's size get up to 190px. so CSS prevents this to happen and keeps it at 150px. use the box-sizing feature for that. */
+.box1{
+  width: 150px;
+  height: 150px;
+  border: 3px solid blue;
+  padding: 10px;
+  box-sizing: content-box;
+  /* it is by default
+  This div has a width of 150px.
+  But the full width is 150px + 6px (border) + 20px (left and right padding) = 176px! */
+}
+.box2{
+  width: 150px;
+  height: 150px;
+  border: 3px solid red;
+  padding: 10px;
+  box-sizing: border-box;
+  /* Here, the full width is 150px, no matter what! */
+}
+/* if we want all the boxes on our page to use the box-sizing feature, we can just by using universal selector is indicated by an *
+or directly for html that contains our entire page
+The inherit property means that it has the same values as the container property so it inherits the same value with html.*/
+*{
+  box-sizing: border-box;
+}
+body{
+  box-sizing: border-box;
+}

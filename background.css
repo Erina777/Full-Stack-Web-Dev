@@ -1,0 +1,13 @@
+h1{
+  background: rgb(255, 35, 67);
+  /* border-color: blue;
+  border-width: 5px;
+  border-style: solid; */
+
+  border: 2px dashed blue;
+}
+body{
+background: url(https://images.unsplash.com/photo-1519681393784-d120267933ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80);
+background-repeat: no-repeat;
+background-size: cover;
+}
